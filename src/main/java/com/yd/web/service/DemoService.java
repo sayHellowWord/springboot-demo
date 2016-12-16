@@ -33,7 +33,7 @@ public class DemoService {
 //    @Scheduled(initialDelay=1000, fixedRate=5000)
 //    @Scheduled(cron="*/5 * * * * *")
     public void reportCurrentTime() {
-      //  System.out.println("现在时间：" + dateFormat.format(new Date()));
+        System.out.println("现在时间：" + dateFormat.format(new Date()));
     }
 
 
